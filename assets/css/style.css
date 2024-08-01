@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* IMPOSTAZIONI GENERALI */
+@media screen and (max-width: 460px) {
+  body {
+    background-image: url("./../img/sfondo.png");
+    font-family: "Poppins";
+  }
+
+  /* HEADER */
+  header {
+    background-image: linear-gradient(180deg, #0088aa, #076d88);
+    margin: 15px;
+    font-weight: 500;
+    box-shadow: 2px 2px rgba(0 0 0 / 0.3);
+    color: #fff;
+  }
+  .header-container {
+    text-align: center;
+    padding-block: 30px;
+  }
+
+  .header-container img {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+  .header-container ul {
+    margin-top: 20px;
+    display: inline-block;
+  }
+  .header-container ul li {
+    margin-block: 5px;
+    list-style: none;
+  }
+
+  /* MAIN */
+  main {
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 2px 2px 10px rgba(0 0 0 / 0.3);
+    text-align: start;
+    padding: 30px 0 10px 10px;
+  }
+  h1 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 23px;
+  }
+  h1 + p {
+    color: grey;
+    margin-bottom: 20px;
+  }
+  main p:nth-child(3) {
+    margin-bottom: 20px;
+  }
+  main p:nth-child(3) span {
+    color: violet;
+  }
+  main p:nth-child(4) {
+    margin-bottom: 20px;
+  }
+
+  ul,
+  ol {
+    margin: 35px;
+  }
+  ul li {
+    list-style-type: disc;
+    margin-bottom: 8px;
+  }
+  main p:nth-child(7) {
+    margin-bottom: 20px;
+  }
+  ol li {
+    list-style-type: decimal;
+    margin-bottom: 8px;
+  }
+
+  table {
+    text-align: center;
+    border-bottom: 3px solid #386ec7;
+    margin-bottom: 30px;
+    margin-inline: auto;
+  }
+  h2 {
+    margin: 30px 80px 0;
+  }
+  tr,
+  th {
+    border: 1px solid #fff;
+  }
+  th {
+    background-color: #386ec7;
+    color: #fff;
+    padding: 10px;
+  }
+  td {
+    padding-block: 10px;
+  }
+  table tr:nth-child(3),
+  table tr:nth-child(5) {
+    background-color: #f3f3f3;
+  }
+
+  a {
+    color: #40b9d3;
+  }
+
+  iframe {
+    margin-top: 30px;
+    margin-left: auto;
+    border-radius: 10px;
+  }
+
+  .news {
+    background-color: #e5e0e2;
+    max-width: 300px;
+    margin: auto;
+  }
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
